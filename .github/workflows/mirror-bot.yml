@@ -2,7 +2,7 @@ name: MirrorBot Environment
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths-ignore: 'README.md'
   workflow_dispatch:
    
@@ -10,7 +10,7 @@ env:
   # Change these values if you have forked it for your own works
   GitHubMail: "thayatlabs@gmail.com"
   GitHubName: "TheWeaver786" 
-  Branch: "master"
+  Branch: "main"
 
 jobs:
   build:
